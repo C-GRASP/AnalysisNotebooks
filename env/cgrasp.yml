@@ -1,0 +1,12 @@
+name: cgrasp
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+ - python
+ - pip
+ - jupyter
+ - pandas
+ - geopandas
+ - scipy
+ - numpy
