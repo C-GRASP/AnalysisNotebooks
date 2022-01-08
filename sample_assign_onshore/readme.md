@@ -4,6 +4,6 @@
 
 * To do so we use 2 United States shapefiles from Natural Earth data (https://www.naturalearthdata.com/) of 10 and 50m resolution.
 * With these two shapefiles, two new datasets are created of samples within each respective polygon.
-* Any samples outside of either polygon resolution, of 10 to 50m are estimated as offshore. 
+* Any samples outside of either polygon resolution, of 1:10000000 to 1:50000000 are estimated as offshore. 
 
 ### This estimation is intended to be taken with a grain of salt as it is likely that some samples were either taken  just outside of the intertidal zone or in offshore areas missed by the lower resolution. Check the sample_type_code field in the dataset for samples with onshore verification from Metadata.
