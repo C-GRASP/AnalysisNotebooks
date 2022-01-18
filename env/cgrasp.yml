@@ -16,3 +16,4 @@ dependencies:
  - os
  - netCDF4
  - glob
+ - cartopy
