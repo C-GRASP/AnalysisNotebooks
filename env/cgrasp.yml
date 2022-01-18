@@ -10,3 +10,5 @@ dependencies:
  - geopandas
  - scipy
  - numpy
+ - geocoder
+ - requests
