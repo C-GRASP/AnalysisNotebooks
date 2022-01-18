@@ -14,3 +14,4 @@ dependencies:
  - requests
  - bs4
  - os
+ - netCDF4
