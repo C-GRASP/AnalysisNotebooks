@@ -6,6 +6,9 @@ Preliminary (provisional) data, information, or software. This software is preli
 
 These analysis notebooks serve to exemplify common data access and analysis workflows for Version 1 (January 2022) of the the Coastal Grain Size Portal (C-GRASP) database. This is a preliminary internal deliverable for the National Oceanography Partnership Program (NOPP) Task 1 / USGS Getsch team and project partners only.
 
+Dataset here
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5874231.svg)](https://doi.org/10.5281/zenodo.5874231)
+
 
 ## How to use
 
