@@ -28,3 +28,11 @@ Map directions:
 ------
 
 #### The last cell down your data. When you run this cell, your queried data will download to your computer in the same folder where this notebook is stored. If you wish to save this data, rename it appropriately in your file browser. The cell will show a frequency histogram for the year dates of the samples downloaded to your computer. If you would like to alter your query, select the "restart the kernel" button to your Jupyter notebook tool bar and repeat the above tasks. 
+
+
+
+
+
+<p align="center">
+  <img src="https://github.com/C-GRASP/AnalysisNotebooks/blob/main/sample_query/sample_query_git.gif" width="700" />
+</p>
