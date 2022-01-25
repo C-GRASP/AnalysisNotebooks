@@ -161,7 +161,7 @@ Listed below are the sources that we compiled for the overall dataset with notes
 
 This data was collected and provided by Dr. Clark Alexander, UGA Skidaway Institute of Oceanography using "Combined sieve (<4 phi) and Sedigraph (>4 phi) analysis technique" from onshore, beach samples from sampling campaigns on Jekyll Island, Sea Island, and St.Simons Island, GA in August, 2016.
 
-##### The data used for C-GRASP provided in the source data are location & date data, sampling coordinates, and sample statistics in Phi (Mean, Sorting, Skewness, Kurtosis). These measurements were converted to mm units and date was standardized from dd-MM-YY to yyyy-mm-dd.
+##### The data used for C-GRASP provided in the source data are location & date data, sampling coordinates, and sample statistics in Phi (Mean, Sorting, Skewness, Kurtosis). These measurements were converted to mm units and date was standardized from dd-MM-YY to yyyy-mm-dd. The Sample_ID type comes from column comes from the dataset's "Station" field. Sample_Type_Code for all files is assigned to 1
 
 
 #### Dataset: USGS East Coast Sediment Texture Database (https://woodshole.er.usgs.gov/project-pages/sediment/index.html)
@@ -176,7 +176,16 @@ http://woodshole.er.usgs.gov/project-pages/sediment/
 
  
 
-##### The data used for C-GRASP provided in this source data are location & date data, sampling coordinates, seive measurements in Phi, and sample statistics in Phi (Mean, Skewness, Kurtosis). These measurements were converted to mm units and date was standardized from year, month, and date fields to yyyy-mm-dd. Cumulative distribution values were calculated via the methods in the Interpolation Notebook. The "Notes" field is composed of the source files' Lithology, Area (i.e. location), and comments fields. Samples were collected on projects from dates ranging from 1955-2014.
+##### The data used for C-GRASP provided in this source data are location & date data, sampling coordinates, seive measurements in Phi, and sample statistics in Phi (Mean, Skewness, Kurtosis). These measurements were converted to mm units and date was standardized from year, month, and date fields to yyyy-mm-dd. Cumulative distribution values were calculated via the methods in the Interpolation Notebook. The "Notes" field is composed of the source files' Lithology, Area (i.e. location), and comments fields. Samples were collected on projects from dates ranging from 1955-2014. The "Sample_ID" column comes from the source data "DB_ID" field.
+
+
+#### Dataset: Louisiana Barrier Island Comphrehensive Monitoring Program ("dataset"==bicms)(https://www.usgs.gov/special-topics/gulf-of-mexico/science/barrier-island-comprehensive-monitoring-program-bicm)
+
+From Website: The goal of the State of Louisiana Barrier Island Comprehensive Monitoring (BICM) program is to provide long-term data on the barrier islands of Louisiana that could be used to plan, design, evaluate, and maintain current and future barrier-island restoration projects. The U.S. Geological Survey (USGS) has partnered with the Louisiana Coastal Protection Restoration Authority [CPRA] to help achieve these goals. The BICM program used both historical and newly acquired data to assess and monitor changes in the aerial and subaqueous extent of islands, habitat types, sediment texture and geotechnical properties, environmental processes, and vegetation composition. BICM datasets included aerial still and video photography (multiple time series) for shoreline positions, habitat mapping, and land loss; light detection and ranging (lidar) surveys for topographic elevations; single-beam and swath bathymetry; and sediment grab samples. Products produced using BICM data and analyses included (but were not limited to) storm-impact assessments, rate of shoreline and bathymetric change, shoreline-erosion and accretion maps, high-resolution elevation maps, coastal-shoreline and barrier-island habitat-classification maps, and coastal surficial-sediment characterization maps.
+
+Kindinger, J.L., Buster, N.A., Flocks, J.G., Bernier, J.C., and Kulp, M.A., 2013, Louisiana Barrier Island Comprehensive Monitoring (BICM) Program Summary Report: Data and Analyses 2006 through 2010: U.S. Geological Survey Open-File Report 2013–1083, 86 p.
+
+##### The data used for C-GRASP provided is merged from BICM data from 2008 and 2015 databases. In this source data are location & date data, sampling coordinates, 3 cumulative distributions provided for samples (d10, d50, d90), and sample statistics in micrometers (Mean, Skewness, Kurtosis). Date was converted from yyyymmdd to yyyy-mm-dd.  Measurements were converted to mm units. Coordinates were reprojected from Northings & Eastings (epsg:26915) to decimal degrees (epsg=4326). Cumulative distribution values were interpolated from the source data distributions via the methods in the Interpolation Notebook. The "Notes" field is composed of the source files' Lithology, sediment color,equipment, sample_type, geoloc, depth, depth and comments fields (among other relevant fields identified in the sample notes). Samples were collected on projects from dates ranging from 1955-2014. The "Sample_ID" column comes from the source data "SAMPLE_ID" field.
 
 
 
