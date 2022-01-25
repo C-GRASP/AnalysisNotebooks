@@ -147,4 +147,38 @@ These fields are populated by their relevant cumulative distribution percentile 
 
 #### Notes:
 
-These notes consist of all other data provided in the source datasets that did not seem immediately useful for the purposes of this dataset, but may be helpful for other endeavors. This data consists of information such as sampling methods, sediment petrography, or whether shells/biological material were present within the sample. For more information, see the data breakdown below.
+These notes consist of all other data provided in this source datasets that did not seem immediately useful for the purposes of this dataset, but may be helpful for other endeavors. This data consists of information such as sampling methods, sediment petrography, or whether shells/biological material were present within the sample. For more information, see the data breakdown below.
+
+
+---
+
+## Source Data Documentation:
+
+Listed below are the sources that we compiled for the overall dataset with notes on  the original provided descriptions, the given conditions of the dataset, where to access them, any alterations and decisions that were made by the C-Grasp Team, and any other relevant notes.
+
+
+#### Dataset:Clark
+
+This data was collected and provided by Dr. Clark Alexander, UGA Skidaway Institute of Oceanography using "Combined sieve (<4 phi) and Sedigraph (>4 phi) analysis technique" from onshore, beach samples from sampling campaigns on Jekyll Island, Sea Island, and St.Simons Island, GA in August, 2016.
+
+##### The data used for C-GRASP provided in the source data are location & date data, sampling coordinates, and sample statistics in Phi (Mean, Sorting, Skewness, Kurtosis). These measurements were converted to mm units and date was standardized from dd-MM-YY to yyyy-mm-dd.
+
+
+#### Dataset: USGS East Coast Sediment Texture Database (https://woodshole.er.usgs.gov/project-pages/sediment/index.html)
+
+<u>From Website </u> : The U.S. Geological Survey East-Coast Sediment Texture Database contains information on the collection, location, description, and texture of samples taken by marine sampling programs at the Woods Hole Coastal and Marine Science Center. Most of the samples are from the Atlantic Continental Margin of the United States, a small number of samples have been collected from a variety of other locations such as Lake Baikal, Russia, the Hawaiian Islands region, Puerto Rico, and Lake Michigan. At present, the database contains about 28,000 samples, including texture data for approximately 3,800 samples taken or analyzed by the Atlantic Continental Margin Program, a joint U.S. Geological Survey/Woods Hole Oceanographic Institution project conducted from 1962 to 1970 (Emery and Schlee, 1963; Hathaway; 1971). Texture data for approximately 24,000 samples analyzed by the Sediment Laboratory of the Coastal and Marine Geology Program of the U.S. Geological Survey, Woods Hole MA after 1980 make up the rest of the database. Although most records contain complete grain size analyses, some are simple bottom descriptions from rocky and bouldery locations where samples were not taken. Most of the samples were collected with some type of grab sampler; a few were obtained by coring. The information contained in this database is important because grain size is the most fundamental property of sediments. Geologists use information on sediment grain size to study trends in surface processes related to the dynamic conditions of transportation and deposition, ecologists use it when studying benthic habitats, engineers use it to study permeability and stability under load, geochemists use it to study kinetic reactions and the affinities of fine-grained particles and contaminants, and hydrologists use it when studying the movement of subsurface fluids (Syvitski, 1991). The basic structure of the database is a matrix where records are rows representing individual samples and the columns contain information on sample identification, navigation, classifications, analyzed parameters, and comments in 58 fields. The database, which can be accessed through the Data Catalog, is provided in three formats: comma delimited ASCII text (.csv), Microsoft Excel 2010 (.xls), and Esri shapefile (.shp).
+
+
+McMullen, K.Y., Paskevich, V.F., and Poppe, L.J., 2014, GIS data catalog (ver. 3.0, November 2014), in Poppe, L.J., McMullen, K.Y., Williams, S.J., and Paskevich, V.F., eds., USGS east-coast sediment analysis: Procedures, database, and GIS data, U.S. Geological Survey Open-File Report 2005-1001, available online at http://pubs.usgs.gov/of/2005/1001/.
+
+U.S. Geological Survey East-Coast Sediment Texture Database, online at URL:
+http://woodshole.er.usgs.gov/project-pages/sediment/
+
+ 
+
+##### The data used for C-GRASP provided in this source data are location & date data, sampling coordinates, seive measurements in Phi, and sample statistics in Phi (Mean, Skewness, Kurtosis). These measurements were converted to mm units and date was standardized from year, month, and date fields to yyyy-mm-dd. Cumulative distribution values were calculated via the methods in the Interpolation Notebook. The "Notes" field is composed of the source files' Lithology, Area (i.e. location), and comments fields. Samples were collected on projects from dates ranging from 1955-2014.
+
+
+
+
+
