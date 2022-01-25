@@ -5,12 +5,43 @@ This document details the USGS Coast Grain Size Portal ([C-Grasp](https://zenodo
 
 ### About the dataset:
 
-The overall preliminary dataset is composed from 6 secondary databases and gathered primary sources, totaling over 210 total primary sources for grainsize measurements. The samples from these sources have been ranked and divided by their relevancy to this project which is to find spatially and temporally explicit surficial sediment grainsize data on the Eastern Continental United States. This data is gathered as a part of the [National Oceaographic Partnership Programm (NOPP) Hurricane Coastal Impacts (NHCI) project](https://nopphurricane.sofarocean.com/).
+The overall preliminary dataset is composed from 6 secondary databases and gathered primary sources, totaling over 210 total primary sources for grainsize measurements. The samples from these sources have been ranked and divided by their relevancy to this project which is to find spatially and temporally explicit surficial sediment grainsize data on the Eastern Continental United States. This data is gathered as a part of the [National Oceaographic Partnership Programm (NOPP) Hurricane Coastal Impacts (NHCI) project](https://nopphurricane.sofarocean.com/). Four versions of this dataset can be found on [C-Grasp](https://zenodo.org/record/5874231#.YeePiVuIbRY):
+
+
+  * Entire Coastal Dataset: This is all data that is found to be within 10km of the  [Natural Earth physical 1:10m coastline polyline](https://www.naturalearthdata.com/downloads/10m-physical-vectors/):
+    * *463,165 Total Samples*   
+    * *12,913 Dated Samples*
+    * *213 Primary Sources*  
+
+<p align="center">
+  <img src=https://github.com/C-GRASP/AnalysisNotebooks/blob/main/documentation/images/overallsed_data_pic_forgit.png width="450" />
+</p>
+
+
+  
+  * Estimated Onshore Dataset: This is all the data from "Entire Coastal Dataset" that lies within the [Natural Earth 1:10m United States Polygon](https://www.naturalearthdata.com/downloads/10m-physical-vectors/):
+    * *70,305 Total Samples*
+    * *6,005 Dated Samples*
+    * *133 Primary Sources*   
+  
+<p align="center">
+  <img src=https://github.com/C-GRASP/AnalysisNotebooks/blob/main/documentation/images/estimated_data_pic_forgit.png width="450" />
+</p>
+
+  
+  
+  * Verified Onshore Dataset: This is all data that was able to be verified onshore from either sampling method, note, or location type data (ie Sample_type_code==1, see below):
+    * *5,356 Total Samples*
+    * *5,272 Dated Samples*
+    * *61 Primary Sources*
+
+<p align="center">
+  <img src=https://github.com/C-GRASP/AnalysisNotebooks/blob/main/documentation/images/verified_data_pic_forgit.png width="450" />
+</p>
 
 
 
-
-
+### In order to access this data via spatiotemporal queries, see our [sample_query tool](https://github.com/C-GRASP/AnalysisNotebooks/tree/main/sample_query)
 
 ---
 
