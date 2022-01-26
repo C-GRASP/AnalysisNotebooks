@@ -179,7 +179,7 @@ http://woodshole.er.usgs.gov/project-pages/sediment/
 ##### The data used for C-GRASP provided in this source data are location & date data, sampling coordinates, seive measurements in Phi, and sample statistics in Phi (Mean, Skewness, Kurtosis). These measurements were converted to mm units and date was standardized from year, month, and date fields to yyyy-mm-dd. Cumulative distribution values were calculated via the methods in the Interpolation Notebook. The "Notes" field is composed of the source files' Lithology, Area (i.e. location), and comments fields. Samples were collected on projects from dates ranging from 1955-2014. The "Sample_ID" column comes from the source data "DB_ID" field.
 
 
-#### Dataset: Louisiana Barrier Island Comphrehensive Monitoring Program ("dataset"==bicms)(https://www.usgs.gov/special-topics/gulf-of-mexico/science/barrier-island-comprehensive-monitoring-program-bicm)
+#### Dataset: Louisiana Barrier Island Comphrehensive Monitoring Program ("dataset"== "bicms")(https://www.usgs.gov/special-topics/gulf-of-mexico/science/barrier-island-comprehensive-monitoring-program-bicm)
 
 From Website: The goal of the State of Louisiana Barrier Island Comprehensive Monitoring (BICM) program is to provide long-term data on the barrier islands of Louisiana that could be used to plan, design, evaluate, and maintain current and future barrier-island restoration projects. The U.S. Geological Survey (USGS) has partnered with the Louisiana Coastal Protection Restoration Authority [CPRA] to help achieve these goals. The BICM program used both historical and newly acquired data to assess and monitor changes in the aerial and subaqueous extent of islands, habitat types, sediment texture and geotechnical properties, environmental processes, and vegetation composition. BICM datasets included aerial still and video photography (multiple time series) for shoreline positions, habitat mapping, and land loss; light detection and ranging (lidar) surveys for topographic elevations; single-beam and swath bathymetry; and sediment grab samples. Products produced using BICM data and analyses included (but were not limited to) storm-impact assessments, rate of shoreline and bathymetric change, shoreline-erosion and accretion maps, high-resolution elevation maps, coastal-shoreline and barrier-island habitat-classification maps, and coastal surficial-sediment characterization maps.
 
@@ -190,4 +190,26 @@ Kindinger, J.L., Buster, N.A., Flocks, J.G., Bernier, J.C., and Kulp, M.A., 2013
 
 
 
+#### Dataset: Bureau of Ocean Energy Management Marine Minerals Information System ("dataset"== "boem")(https://mmis.doi.gov/BOEMMMIS/)
 
+From Website: "OCS sand and gravel resources are vital sources of material for the construction of coastal protection and restoration projects, including efforts to protect coastal communities, national defense facilities, and federal and state infrastructure. In recent years, there has been a growing demand for OCS sediment for planned projects, as well as for emergency needs to restore areas damaged by natural disasters. On a national scale, little is known about the character, quantity, and location of sand resources on the OCS and the habitat it provides for biological communities.
+
+Proponents of planned infrastructure projects are requesting higher volumes of OCS sediment, driven by diminishing resources in state waters and a high frequency of recent storms along the Atlantic and Gulf of Mexico coasts. Further, given the significant number of other ocean users (e.g., energy infrastructure, fiber optic telecommunication cables, electrical transmission lines, and fisheries), BOEM strives to reduce or eliminate the potential for multiple use conflicts or environmental impacts that could result from marine minerals projects. This can make it challenging to identify new potential areas from which to borrow or dredge sediment.
+
+As the system continues to grow and mature, BOEM plans to add more features and data sets.
+
+Key MMIS features include:
+
+ * More than30 years of BOEM-funded geological and geophysical research data
+ * Data from more than40 partners in federal, state and local government, academia and other entities
+ * A viewer with more than 20 available data layers
+ * Sediment data offshore 18 coastal states
+ * GIS-mapping capabilities
+ * Tools to download data into geodatabases, shapefiles, or .csv files
+ * Statistics on sand volume, number of projects, number of states, and use trends
+Links to environmental studies and assessments, data from state cooperative agreements"
+
+
+
+
+##### The data used for C-GRASP provided is merged from the MMIS portal from 7 spatial queries in order to aquire the entire sediment dataset and avoid the download cap. In this source data are location & date data, sampling coordinates, and sample statistics in Phi units (Mean, Skewness, Median, Kurtosis).  Measurements were converted to mm units. Coordinates provided are in the ESPG 4326 datum. The "Notes" field is composed of the source files' Analysis date, lithology, sediment description, sediment color,equipment, sample_type, geoloc, depth, depth and comments fields (among other relevant fields identified in the sample notes such as OilPresent). Samples were collected on projects from dates ranging from 1955-2014. The "Sample_ID" column comes from the source data "SampleID" and "GrabID" fields, merged. The "Sample_Type" field comes from the source data "Sampler" field
