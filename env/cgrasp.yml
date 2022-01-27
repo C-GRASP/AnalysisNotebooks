@@ -16,3 +16,10 @@ dependencies:
  - netCDF4
  - cartopy
  - ipyleaflet
+ - ipywidgets
+ - ogr
+ - os
+ - urlib
+ - shapely
+ - pyproj
+ - osmnx
