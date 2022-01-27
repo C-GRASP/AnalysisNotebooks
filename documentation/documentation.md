@@ -4,7 +4,7 @@ This document details the USGS Coast Grain Size Portal ([C-Grasp](https://zenodo
 
 ### About the dataset:
 
-The overall preliminary dataset is composed from 6 secondary databases and gathered primary sources, totaling over 210 total primary sources for grainsize measurements. The samples from these sources have been ranked and divided by their relevancy to this project which is to find spatially and temporally explicit surficial sediment grainsize data on the Eastern Continental United States. This data is gathered as a part of the [National Oceaographic Partnership Programm (NOPP) Hurricane Coastal Impacts (NHCI) project](https://nopphurricane.sofarocean.com/). Four versions of this dataset can be found on [C-Grasp](https://zenodo.org/record/5874231#.YeePiVuIbRY):
+The overall preliminary dataset is composed from 6 secondary databases and gathered primary sources, totaling over 210 primary sources for grainsize measurements. The samples from these sources have been ranked and selected by their relevancy in leiu of the objectives of this project which is to find spatially and temporally explicit surficial sediment grainsize data on the Eastern Continental United States. This data is gathered as a part of the [National Oceaographic Partnership Programm (NOPP) Hurricane Coastal Impacts (NHCI) project](https://nopphurricane.sofarocean.com/). Four versions of this dataset can be found on [C-Grasp](https://zenodo.org/record/5874231#.YeePiVuIbRY):
 
 
   * Entire Coastal Dataset: This is all data that is found to be within 10km of the  [Natural Earth physical 1:10m coastline polyline](https://www.naturalearthdata.com/downloads/10m-physical-vectors/):
