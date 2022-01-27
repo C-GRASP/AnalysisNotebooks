@@ -1,6 +1,6 @@
 # C-Grasp Dataset Documentation
 
-This document details the USGS Coast Grain Size Portal ([C-Grasp](https://zenodo.org/record/5874231#.YeePiVuIbRY)), the data sources it is comprised of, and  any alterations/decisions that may have been enacted in the compilation processes.
+This document details the USGS Coast Grain Size Portal ([C-Grasp](https://zenodo.org/record/5874231#.YeePiVuIbRY)), the data sources it is comprised of, and  any alterations/decisions made in the compilation processes.
 
 ### About the dataset:
 
