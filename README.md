@@ -26,4 +26,4 @@ jupyter notebook
 ```
 
 ## Third-party Data 
-Requires data from [Natural Earth Data](https://www.naturalearthdata.com/downloads/) available at this [download link](http://naciscdn.org/naturalearth/packages/natural_earth_vector.zip)
+Calls data from [Natural Earth Data](https://www.naturalearthdata.com/downloads/) available at this [download link](http://naciscdn.org/naturalearth/packages/natural_earth_vector.zip) using [Cartopy](https://pypi.org/project/Cartopy/)
