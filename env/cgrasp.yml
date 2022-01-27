@@ -19,7 +19,6 @@ dependencies:
  - ipywidgets
  - ogr
  - os
- - urlib
  - shapely
  - pyproj
  - osmnx
