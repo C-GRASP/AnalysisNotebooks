@@ -162,6 +162,8 @@ These data were collected from databases composed of samples from compiled, rele
 
 ### Dataset: Louisiana Barrier Island Comphrehensive Monitoring Program ("dataset"== "bicms")(https://www.usgs.gov/special-topics/gulf-of-mexico/science/barrier-island-comprehensive-monitoring-program-bicm)
 
+Total Samples: 3392
+
 From Website: The goal of the State of Louisiana Barrier Island Comprehensive Monitoring (BICM) program is to provide long-term data on the barrier islands of Louisiana that could be used to plan, design, evaluate, and maintain current and future barrier-island restoration projects. The U.S. Geological Survey (USGS) has partnered with the Louisiana Coastal Protection Restoration Authority [CPRA] to help achieve these goals. The BICM program used both historical and newly acquired data to assess and monitor changes in the aerial and subaqueous extent of islands, habitat types, sediment texture and geotechnical properties, environmental processes, and vegetation composition. BICM datasets included aerial still and video photography (multiple time series) for shoreline positions, habitat mapping, and land loss; light detection and ranging (lidar) surveys for topographic elevations; single-beam and swath bathymetry; and sediment grab samples. Products produced using BICM data and analyses included (but were not limited to) storm-impact assessments, rate of shoreline and bathymetric change, shoreline-erosion and accretion maps, high-resolution elevation maps, coastal-shoreline and barrier-island habitat-classification maps, and coastal surficial-sediment characterization maps.
 
 Kindinger, J.L., Buster, N.A., Flocks, J.G., Bernier, J.C., and Kulp, M.A., 2013, Louisiana Barrier Island Comprehensive Monitoring (BICM) Program Summary Report: Data and Analyses 2006 through 2010: U.S. Geological Survey Open-File Report 2013–1083, 86 p.
@@ -173,7 +175,9 @@ Kindinger, J.L., Buster, N.A., Flocks, J.G., Bernier, J.C., and Kulp, M.A., 2013
  * The "Sample_ID" column comes from the source data "SAMPLE_ID" field.
 
 
-### Dataset: Bureau of Ocean Energy Management Marine Minerals Information System ("dataset"== "boem")(https://mmis.doi.gov/BOEMMMIS/)
+### Dataset: Bureau of Ocean Energy Management Marine Minerals Information System ("dataset"== "BOEM")(https://mmis.doi.gov/BOEMMMIS/):
+
+Total Samples: 9458
 
 From Website: "OCS sand and gravel resources are vital sources of material for the construction of coastal protection and restoration projects, including efforts to protect coastal communities, national defense facilities, and federal and state infrastructure. In recent years, there has been a growing demand for OCS sediment for planned projects, as well as for emergency needs to restore areas damaged by natural disasters. On a national scale, little is known about the character, quantity, and location of sand resources on the OCS and the habitat it provides for biological communities.
 
@@ -204,6 +208,8 @@ Links to environmental studies and assessments, data from state cooperative agre
 
 ### Dataset: USGS East Coast Sediment Texture Database (https://woodshole.er.usgs.gov/project-pages/sediment/index.html)
 
+Total Samples: 2846
+
 <u>From Website </u> : The U.S. Geological Survey East-Coast Sediment Texture Database contains information on the collection, location, description, and texture of samples taken by marine sampling programs at the Woods Hole Coastal and Marine Science Center. Most of the samples are from the Atlantic Continental Margin of the United States, a small number of samples have been collected from a variety of other locations such as Lake Baikal, Russia, the Hawaiian Islands region, Puerto Rico, and Lake Michigan. At present, the database contains about 28,000 samples, including texture data for approximately 3,800 samples taken or analyzed by the Atlantic Continental Margin Program, a joint U.S. Geological Survey/Woods Hole Oceanographic Institution project conducted from 1962 to 1970 (Emery and Schlee, 1963; Hathaway; 1971). Texture data for approximately 24,000 samples analyzed by the Sediment Laboratory of the Coastal and Marine Geology Program of the U.S. Geological Survey, Woods Hole MA after 1980 make up the rest of the database. Although most records contain complete grain size analyses, some are simple bottom descriptions from rocky and bouldery locations where samples were not taken. Most of the samples were collected with some type of grab sampler; a few were obtained by coring. The information contained in this database is important because grain size is the most fundamental property of sediments. Geologists use information on sediment grain size to study trends in surface processes related to the dynamic conditions of transportation and deposition, ecologists use it when studying benthic habitats, engineers use it to study permeability and stability under load, geochemists use it to study kinetic reactions and the affinities of fine-grained particles and contaminants, and hydrologists use it when studying the movement of subsurface fluids (Syvitski, 1991). The basic structure of the database is a matrix where records are rows representing individual samples and the columns contain information on sample identification, navigation, classifications, analyzed parameters, and comments in 58 fields. The database, which can be accessed through the Data Catalog, is provided in three formats: comma delimited ASCII text (.csv), Microsoft Excel 2010 (.xls), and Esri shapefile (.shp).
 
 
@@ -225,6 +231,8 @@ http://woodshole.er.usgs.gov/project-pages/sediment/
 
 ### Dataset: Regional Offshore Sand Source Inventory (dataset=='rossi') (http://rossi.urs-tally.com/)
 
+Total Samples: 2084
+
  From Website: This inventory of sand sources provides information for coastal engineers and geologists, project managers and the public to assess and identify potential offshore sand resources that are suitable for beach nourishment projects. ROSSI, an online information management system, can be searched through an online query builder, as well as with ArcIMS Geographic Information System mapping tools. The project has incorporated geological and geotechnical data for the Florida offshore continental shelf. The primary area of interest is within 10 miles of the shoreline. Data and information from farther offshore that assists in understanding or predicting potential sand resources within the area of primary interest is also included in the database.
  
 Our purpose is to enable users to make the most informed decision possible when it comes to management of our Florida beaches and coastlines. Data that is both current and easily accessible are the key ingredients that facilitate the management process. Two basic types of data will be used in this effort. Spatial data will be used because the environment is geographic in nature. Tabular data will be used to store information about events which take place at locations stored as spatial data and referred to as spatial features.
@@ -244,7 +252,9 @@ The database stores information about sand samples. Information associated with 
 
 
 
-### Dataset: usSEABED ("dataset"== "ussb")(https://www.usgs.gov/programs/cmhrp/science/usseabed)
+### Dataset: usSEABED ("dataset"== "US_SeaBed")(https://www.usgs.gov/programs/cmhrp/science/usseabed)
+
+Total Samples: 443525
 
  From Website: "Information about seafloor characteristics from the beach to the deep sea improves the understanding of interactions between land and sea, effects of river discharge and sea level changes, distributions of benthic flora and fauna, location and type of resources, potential consequences of human activities on the oceans, and other critical issues. Large- and small-scale maps of the seabed, as well as reliable data over broad geographical areas, allow for integrated insights into these issues and more.
 
@@ -270,7 +280,9 @@ The database stores information about sand samples. Information associated with 
 
 These data were collected from projects and publications that include grainsize measurements. Some of these projects include use of sample data from other publications or projects, the name of which can be found in the "Project" field for each sample. 
 
-### Dataset:Clark
+### Dataset:Clark (dataset == 'C_Alexander')
+
+Total Samples: 98
 
 This data was collected and provided by Dr. Clark Alexander, UGA Skidaway Institute of Oceanography using "Combined sieve (<4 phi) and Sedigraph (>4 phi) analysis technique" from onshore, beach samples from sampling campaigns on Jekyll Island, Sea Island, and St.Simons Island, GA in August, 2016.
 
@@ -281,6 +293,8 @@ This data was collected and provided by Dr. Clark Alexander, UGA Skidaway Instit
 
 
 ### Dataset: Massachusetts Beach Grain Size and Slope Data (dataset=='UMass') https://scholarworks.umass.edu/data/115/:
+
+Total Samples: 989
 
 From Website: This data repository contains grain size and beach face slope data from approximately 100 paired summer and winter transects collected along 18 separate beaches in southern New England. The study is focused to beaches of Massachusetts, which represents a particularly unique section of the Northeastern US coast in that it: 1) lies at the interface between New England’s paraglacial lowlands and Mid-Atlantic Coastal Plain, 2) spans both micro- and meso- tidal regimes, 3) encompasses a wide range of seasonally varying wave conditions, and 4) contains a diverse array of geomorphic and grain size characteristics. Between 2 and 10 intertidal transects were conducted for each of the sites depending on the length of the beach and accessibility. Transect positions were chosen at representative locations along the beach and equally spaced when possible. At each transect at least three separate samples were collected at near 1) high-tide, 2) mid-tide and 3) low-tide. When possible, additional samples were collected along berm crest, storm berms and dune. To assess seasonal variations in grain size distribution and slope, all transects along beaches were sampled and surveyed twice, once at the end of the summer and then revisited again at the end of the winter season. Surface sediments from the top 15-30 cm were collected from sites primarily composed of sand and pebbles (i.e. < 64 mm), and brought back to the University of Massachusetts in Amherst, MA for analysis. Exclusively sand samples were collected in 1-liter (1-quart) bags, predominantly sand samples were collected in 4-liter (1-gallon) bags and mixed sand and pebble samples in 19 -liter (5 gallon) buckets. Areas comprised primarily of cobbles and boulder (> 64 mm) were measured in the field using a gravelometer and standard pebble count technique. Sediment samples were washed and dried thoroughly to remove salt and debris (sticks, seaweed, etc.). Each sample was weighed and sub-divided into fractions greater and less than 4 mm. Distributions for grains greater than 4 mm were obtained via standard sieving techniques. Grain size distributions for sample fractions < 4 mm were measured on a CAMSIZER digital particle size analyzer capable of measuring particles between 30 μm and 4 mm. The elevation of each sampling location as well as inter-tidal beach slope for each transect was obtained using a using a Real Time Kinematic (RTK) GPS survey system or a total station survey system tied to local benchmarks.
 
@@ -297,7 +311,9 @@ Woodruff, J.D., Venti, N., Mabee, S., DiTroia, A., Beach, D., Massachusetts Beac
  * The "Notes" field comes from the source data "season", "beach face", and "transect" fields
 
 
-### Dataset:McFall (dataset=='mcfall_via_weigl'
+### Dataset:McFall (dataset=='mcfall_via_weigl')
+
+Total Samples: 35
 
 This data was collected and provided by Dr. Brian C McFall, US Army Corps of Engineers, Coastal & Hydraulics Laboratory, and is composed of sediment sample measurements that he compiled from publications for his 2019 publication relating grainsize and slope measurements (see reference below).
 
@@ -308,6 +324,8 @@ This data was collected and provided by Dr. Brian C McFall, US Army Corps of Eng
 McFall, B. C. (2019). The relationship between beach grain size and intertidal beach face slope. Journal of Coastal Research, 35(5), 1080-1086.
 
 ### Dataset: SandSnap  https://navigation.usace.army.mil/SEM/SandSnapViewer':
+
+Total Samples: 273
 
 From Website: SandSnap is a collaborative project to engage citizen scientists, build a database of beach sand grain size, and educate the next generation about coastal processes. To understand how and why coastlines change, we must know the grain size of the sand on the beach. This information helps us model sand movement caused by the tides and waves, and allows us to predict how the coast will change.
 
@@ -332,6 +350,8 @@ SandSnap allows anyone with a cell phone to take an image of the sand with a US 
 
 
 ### Dataset: Susan Bell (dataset=='SusanBell_UniversitySouthernFlorida')  https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:0083190:
+
+Total Samples: 464
 
 From Website: Sampling for macroinfauna from swash zones of beaches along the SE Gulf of Mexico and SE coast of Florida was conducted from May 2010- July 2011. At each site, sampling was conducted using sediment cores (10cm diameter, 20cm deep) and all sampling was conducted within 2 hrs of low tide. Cores were collected within an approximately 100m linear distance parallel to the shoreline at each site. Some sites were intensively sampled across 3 subareas of the swash zone: high (near maximum wave run-up), mid, and low (near maximum wave back-wash) swash. Core contents were washed through a 1mm mesh and contents retained on the sieve were returned to the laboratory and frozen at 4°C. In the laboratory, samples were sorted and all macroinfauna removed. The dominant macroinfauna Donax variabilis (coquina) and Emerita talpoida (mole crab), making up over 99% of all organisms, were enumerated. Mean number (SD) per core and subarea within the swash zone are reported.
 
