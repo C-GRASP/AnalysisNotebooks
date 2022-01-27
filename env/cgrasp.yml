@@ -22,4 +22,4 @@ dependencies:
  - shapely
  - pyproj
  - osmnx
- - zipfile
+ - cartopy
