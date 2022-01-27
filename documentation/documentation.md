@@ -1,7 +1,6 @@
 # C-Grasp Dataset Documentation
 
-This document details the USGS Coast Grain Size Portal ([C-Grasp](https://zenodo.org/record/5874231#.YeePiVuIbRY)), the data sources it is comprised of, the pitfalls of each source, any alterations/decisions that may have been enacted in the compilation processes, and potential use cases of the dataset.
-
+This document details the USGS Coast Grain Size Portal ([C-Grasp](https://zenodo.org/record/5874231#.YeePiVuIbRY)), the data sources it is comprised of, and  any alterations/decisions that may have been enacted in the compilation processes.
 
 ### About the dataset:
 
@@ -152,45 +151,30 @@ These notes consist of all other data provided in this source datasets that did 
 
 ---
 
-## Source Data Documentation:
+# Source Data Documentation:
 
-Listed below are the sources that we compiled for the overall dataset with notes on  the original provided descriptions, the given conditions of the dataset, where to access them, any alterations and decisions that were made by the C-Grasp Team, and any other relevant notes.
+Listed below are the sources that we compiled for the overall dataset with notes on  the original provided descriptions, the given conditions of the dataset, where to access them, any alterations and decisions that were made by the C-Grasp Team, and any other relevant notes. If the dataset's name is different than the notation in the "dataset" field, it is denoted in the titles below as such: Name (dataset == 'name_abbreviation')
 
+## Databases/Secondary Sources:
 
-#### Dataset:Clark
+===
 
-This data was collected and provided by Dr. Clark Alexander, UGA Skidaway Institute of Oceanography using "Combined sieve (<4 phi) and Sedigraph (>4 phi) analysis technique" from onshore, beach samples from sampling campaigns on Jekyll Island, Sea Island, and St.Simons Island, GA in August, 2016.
+These data were collected from databases composed of samples from compiled, relevant projects. These projects, when extractable, are specified listed under the "Project" field for each sample. 
 
-##### The data used for C-GRASP provided in the source data are location & date data, sampling coordinates, and sample statistics in Phi (Mean, Sorting, Skewness, Kurtosis). These measurements were converted to mm units and date was standardized from dd-MM-YY to yyyy-mm-dd. The Sample_ID type comes from column comes from the dataset's "Station" field. Sample_Type_Code for all files is assigned to 1
-
-
-#### Dataset: USGS East Coast Sediment Texture Database (https://woodshole.er.usgs.gov/project-pages/sediment/index.html)
-
-<u>From Website </u> : The U.S. Geological Survey East-Coast Sediment Texture Database contains information on the collection, location, description, and texture of samples taken by marine sampling programs at the Woods Hole Coastal and Marine Science Center. Most of the samples are from the Atlantic Continental Margin of the United States, a small number of samples have been collected from a variety of other locations such as Lake Baikal, Russia, the Hawaiian Islands region, Puerto Rico, and Lake Michigan. At present, the database contains about 28,000 samples, including texture data for approximately 3,800 samples taken or analyzed by the Atlantic Continental Margin Program, a joint U.S. Geological Survey/Woods Hole Oceanographic Institution project conducted from 1962 to 1970 (Emery and Schlee, 1963; Hathaway; 1971). Texture data for approximately 24,000 samples analyzed by the Sediment Laboratory of the Coastal and Marine Geology Program of the U.S. Geological Survey, Woods Hole MA after 1980 make up the rest of the database. Although most records contain complete grain size analyses, some are simple bottom descriptions from rocky and bouldery locations where samples were not taken. Most of the samples were collected with some type of grab sampler; a few were obtained by coring. The information contained in this database is important because grain size is the most fundamental property of sediments. Geologists use information on sediment grain size to study trends in surface processes related to the dynamic conditions of transportation and deposition, ecologists use it when studying benthic habitats, engineers use it to study permeability and stability under load, geochemists use it to study kinetic reactions and the affinities of fine-grained particles and contaminants, and hydrologists use it when studying the movement of subsurface fluids (Syvitski, 1991). The basic structure of the database is a matrix where records are rows representing individual samples and the columns contain information on sample identification, navigation, classifications, analyzed parameters, and comments in 58 fields. The database, which can be accessed through the Data Catalog, is provided in three formats: comma delimited ASCII text (.csv), Microsoft Excel 2010 (.xls), and Esri shapefile (.shp).
-
-
-McMullen, K.Y., Paskevich, V.F., and Poppe, L.J., 2014, GIS data catalog (ver. 3.0, November 2014), in Poppe, L.J., McMullen, K.Y., Williams, S.J., and Paskevich, V.F., eds., USGS east-coast sediment analysis: Procedures, database, and GIS data, U.S. Geological Survey Open-File Report 2005-1001, available online at http://pubs.usgs.gov/of/2005/1001/.
-
-U.S. Geological Survey East-Coast Sediment Texture Database, online at URL:
-http://woodshole.er.usgs.gov/project-pages/sediment/
-
- 
-
-##### The data used for C-GRASP provided in this source data are location & date data, sampling coordinates, seive measurements in Phi, and sample statistics in Phi (Mean, Skewness, Kurtosis). These measurements were converted to mm units and date was standardized from year, month, and date fields to yyyy-mm-dd. Cumulative distribution values were calculated via the methods in the Interpolation Notebook. The "Notes" field is composed of the source files' Lithology, Area (i.e. location), and comments fields. Samples were collected on projects from dates ranging from 1955-2014. The "Sample_ID" column comes from the source data "DB_ID" field.
-
-
-#### Dataset: Louisiana Barrier Island Comphrehensive Monitoring Program ("dataset"== "bicms")(https://www.usgs.gov/special-topics/gulf-of-mexico/science/barrier-island-comprehensive-monitoring-program-bicm)
+### Dataset: Louisiana Barrier Island Comphrehensive Monitoring Program ("dataset"== "bicms")(https://www.usgs.gov/special-topics/gulf-of-mexico/science/barrier-island-comprehensive-monitoring-program-bicm)
 
 From Website: The goal of the State of Louisiana Barrier Island Comprehensive Monitoring (BICM) program is to provide long-term data on the barrier islands of Louisiana that could be used to plan, design, evaluate, and maintain current and future barrier-island restoration projects. The U.S. Geological Survey (USGS) has partnered with the Louisiana Coastal Protection Restoration Authority [CPRA] to help achieve these goals. The BICM program used both historical and newly acquired data to assess and monitor changes in the aerial and subaqueous extent of islands, habitat types, sediment texture and geotechnical properties, environmental processes, and vegetation composition. BICM datasets included aerial still and video photography (multiple time series) for shoreline positions, habitat mapping, and land loss; light detection and ranging (lidar) surveys for topographic elevations; single-beam and swath bathymetry; and sediment grab samples. Products produced using BICM data and analyses included (but were not limited to) storm-impact assessments, rate of shoreline and bathymetric change, shoreline-erosion and accretion maps, high-resolution elevation maps, coastal-shoreline and barrier-island habitat-classification maps, and coastal surficial-sediment characterization maps.
 
 Kindinger, J.L., Buster, N.A., Flocks, J.G., Bernier, J.C., and Kulp, M.A., 2013, Louisiana Barrier Island Comprehensive Monitoring (BICM) Program Summary Report: Data and Analyses 2006 through 2010: U.S. Geological Survey Open-File Report 2013–1083, 86 p.
 
-##### The data used for C-GRASP is merged from BICM data from 2008 and 2015 databases. In this source data are location & date data, sampling coordinates, 3 cumulative distributions provided for samples (d10, d50, d90), and sample statistics in micrometers (Mean, Skewness, Kurtosis). Date was converted from yyyymmdd to yyyy-mm-dd.  Measurements were converted to mm units. Coordinates were reprojected from Northings & Eastings (epsg:26915) to decimal degrees (epsg=4326). Cumulative distribution values were interpolated from the source data distributions via the methods in the Interpolation Notebook. The "Notes" field is composed of the source files' Lithology, sediment color,equipment, sample_type, geoloc, depth, depth and comments fields (among other relevant fields identified in the sample notes). Samples were collected on projects from dates ranging from 1955-2014. The "Sample_ID" column comes from the source data "SAMPLE_ID" field.
+#### The data used for C-GRASP is merged from BICM data from 2008 and 2015 databases. Used from this source data are location & date data, sampling coordinates, 3 cumulative distributions provided for samples (d10, d50, d90), and sample statistics in micrometers (Mean, Skewness, Kurtosis). Samples were collected on projects from dates ranging from 1955-2014. Details/Alterations:
+ * Date was converted from yyyymmdd to yyyy-mm-dd.  Measurements were converted to mm units. Coordinates were reprojected from Northings & Eastings (epsg:26915) to decimal degrees (epsg=4326).
+ * Cumulative distribution values were interpolated from the source data distributions via the methods in the Interpolation Notebook.
+ * The "Notes" field is composed of the source files' Lithology, sediment color,equipment, sample_type, geoloc, depth, depth and comments fields (among other relevant fields identified in the sample notes).
+ * The "Sample_ID" column comes from the source data "SAMPLE_ID" field.
 
 
-
-
-#### Dataset: Bureau of Ocean Energy Management Marine Minerals Information System ("dataset"== "boem")(https://mmis.doi.gov/BOEMMMIS/)
+### Dataset: Bureau of Ocean Energy Management Marine Minerals Information System ("dataset"== "boem")(https://mmis.doi.gov/BOEMMMIS/)
 
 From Website: "OCS sand and gravel resources are vital sources of material for the construction of coastal protection and restoration projects, including efforts to protect coastal communities, national defense facilities, and federal and state infrastructure. In recent years, there has been a growing demand for OCS sediment for planned projects, as well as for emergency needs to restore areas damaged by natural disasters. On a national scale, little is known about the character, quantity, and location of sand resources on the OCS and the habitat it provides for biological communities.
 
@@ -212,19 +196,160 @@ Links to environmental studies and assessments, data from state cooperative agre
 
 
 
-##### The data used for C-GRASP is from the MMIS portal. comprising of data merged from 7 spatial queries in order to aquire the entire sediment dataset and avoid the download cap. In this source data are location & date data, sampling coordinates, and sample statistics in Phi units (Mean, Skewness, Median, Kurtosis).  Measurements were converted to mm units. Coordinates provided are in the ESPG 4326 datum. The "Notes" field is composed of the source files' Analysis date, lithology, sediment description, sediment color,equipment, sample_type, geoloc, depth, depth and comments fields (among other relevant fields identified in the sample notes such as OilPresent). Samples were collected on projects from dates ranging from 1955-2014. The "Sample_ID" column comes from the source data "SampleID" and "GrabID" fields, merged. The "Sample_Type" field comes from the source data "Sampler" field
+#### The data used for C-GRASP is from the MMIS portal comprising of data merged from 7 spatial queries in order to aquire the entire sediment dataset and avoid the download cap. To replicate these steps, one must merge both downloaded "sample_table.csv" and "grab_samples.csv" files on the basis of ID in order to add coordinate data to sample measurements. Used from this source data are location & date data, sampling coordinates, and sample statistics in Phi units (Mean, Skewness, Median, Kurtosis). Samples were collected on projects from dates ranging from 1986-2016 Details/Alterations:
 
-#### Dataset: usSEABED ("dataset"== "ussb")(https://www.usgs.gov/programs/cmhrp/science/usseabed)
-
-From Website: "Information about seafloor characteristics from the beach to the deep sea improves the understanding of interactions between land and sea, effects of river discharge and sea level changes, distributions of benthic flora and fauna, location and type of resources, potential consequences of human activities on the oceans, and other critical issues. Large- and small-scale maps of the seabed, as well as reliable data over broad geographical areas, allow for integrated insights into these issues and more.
-
-To assist in addressing these issues, the USGS and the University of Colorado have created usSEABED.  The usSEABED datasets currently hold georeferenced point data for more than 300,000 data sites in U.S. waters from the beach to the deep sea, rivers, lakes, and estuaries. In usSEABED, existing data from the USGS and other research groups are processed and extended to maximize their density and usability creating unified, comprehensive, relationally linked datasets for mapping and analysis.  Source data include surficial and subbottom data from physical sampling equipment (grabs and cores) and virtual sampling such as descriptions from seafloor photographs and videos.
-
-In addition to quantified lab-derived data, the datasets of usSEABED also include estimated numeric values for those typical seabed characteristics—noted above—based on the extensive accumulation of word-based data in U.S. waters. These data are rich in information, but were previously difficult to quantify, map, plot, or use in comparative analyses or models.
-
-These descriptive data—from short sentences, small essays, or single phrases—are treated as a mathematical equation that is considered as a whole. Filters based on fuzzy set theory assign relative weight to each word in the description, and estimate the values of textural and other parameters. In addition, the textural implications of non-textural terms—such as 'broken shells' or Halimeda—are included in the calculation of grain-size parameters.
-
-The resulting numeric data, now useable in a GIS or model, should be considered "fuzzy"; that is, they give an approximation—not a rigorous measurement—of the assessed values."
+ * Measurements were converted to mm units. Source coordinates provided are in the EPSG 4326 datum. The "Notes" field is composed of the source files' Analysis date, lithology, sediment description, sediment color,equipment, sample_type, geoloc, depth, depth and comments fields (among other relevant fields identified in the sample notes such as OilPresent).
+ * The "Sample_ID" column comes from the source data "SampleID" and "GrabID" fields, merged.
+ * The "Sample_Type" field comes from the source data "Sampler" field
 
 
-##### The data used for C-GRASP  is merged from the MMIS portal from 7 spatial queries in order to aquire the entire sediment dataset and avoid the download cap. In this source data are location & date data, sampling coordinates, and sample statistics in Phi units (Mean, Skewness, Median, Kurtosis).  Measurements were converted to mm units. Coordinates provided are in the ESPG 4326 datum. The "Notes" field is composed of the source files' Analysis date, lithology, sediment description, sediment color,equipment, sample_type, geoloc, depth, depth and comments fields (among other relevant fields identified in the sample notes such as OilPresent). Samples were collected on projects from dates ranging from 1955-2014. The "Sample_ID" column comes from the source data "SampleID" and "GrabID" fields, merged. The "Sample_Type" field comes from the source data "Sampler" field
+### Dataset: USGS East Coast Sediment Texture Database (https://woodshole.er.usgs.gov/project-pages/sediment/index.html)
+
+<u>From Website </u> : The U.S. Geological Survey East-Coast Sediment Texture Database contains information on the collection, location, description, and texture of samples taken by marine sampling programs at the Woods Hole Coastal and Marine Science Center. Most of the samples are from the Atlantic Continental Margin of the United States, a small number of samples have been collected from a variety of other locations such as Lake Baikal, Russia, the Hawaiian Islands region, Puerto Rico, and Lake Michigan. At present, the database contains about 28,000 samples, including texture data for approximately 3,800 samples taken or analyzed by the Atlantic Continental Margin Program, a joint U.S. Geological Survey/Woods Hole Oceanographic Institution project conducted from 1962 to 1970 (Emery and Schlee, 1963; Hathaway; 1971). Texture data for approximately 24,000 samples analyzed by the Sediment Laboratory of the Coastal and Marine Geology Program of the U.S. Geological Survey, Woods Hole MA after 1980 make up the rest of the database. Although most records contain complete grain size analyses, some are simple bottom descriptions from rocky and bouldery locations where samples were not taken. Most of the samples were collected with some type of grab sampler; a few were obtained by coring. The information contained in this database is important because grain size is the most fundamental property of sediments. Geologists use information on sediment grain size to study trends in surface processes related to the dynamic conditions of transportation and deposition, ecologists use it when studying benthic habitats, engineers use it to study permeability and stability under load, geochemists use it to study kinetic reactions and the affinities of fine-grained particles and contaminants, and hydrologists use it when studying the movement of subsurface fluids (Syvitski, 1991). The basic structure of the database is a matrix where records are rows representing individual samples and the columns contain information on sample identification, navigation, classifications, analyzed parameters, and comments in 58 fields. The database, which can be accessed through the Data Catalog, is provided in three formats: comma delimited ASCII text (.csv), Microsoft Excel 2010 (.xls), and Esri shapefile (.shp).
+
+
+McMullen, K.Y., Paskevich, V.F., and Poppe, L.J., 2014, GIS data catalog (ver. 3.0, November 2014), in Poppe, L.J., McMullen, K.Y., Williams, S.J., and Paskevich, V.F., eds., USGS east-coast sediment analysis: Procedures, database, and GIS data, U.S. Geological Survey Open-File Report 2005-1001, available online at http://pubs.usgs.gov/of/2005/1001/.
+
+U.S. Geological Survey East-Coast Sediment Texture Database, online at URL:
+http://woodshole.er.usgs.gov/project-pages/sediment/
+
+ 
+
+#### The data used for C-GRASP provided in this source data are location & date data, sampling coordinates, seive measurements in Phi, and sample statistics in Phi (Mean, Skewness, Kurtosis). Samples were collected on projects from dates ranging from 1955-2014.  Details/Alterations:
+ * These measurements were converted to mm units.
+ *  date was standardized from year, month, and date fields to yyyy-mm-dd. 
+ *  Cumulative distribution values were calculated via the methods in the Interpolation Notebook. The "Notes" field is composed of the source files' Lithology, Area (i.e. location), and comments fields. 
+
+ *  The "Sample_ID" column comes from the source data "DB_ID" field.
+
+
+
+### Dataset: Regional Offshore Sand Source Inventory (dataset=='rossi') (http://rossi.urs-tally.com/)
+
+ From Website: This inventory of sand sources provides information for coastal engineers and geologists, project managers and the public to assess and identify potential offshore sand resources that are suitable for beach nourishment projects. ROSSI, an online information management system, can be searched through an online query builder, as well as with ArcIMS Geographic Information System mapping tools. The project has incorporated geological and geotechnical data for the Florida offshore continental shelf. The primary area of interest is within 10 miles of the shoreline. Data and information from farther offshore that assists in understanding or predicting potential sand resources within the area of primary interest is also included in the database.
+ 
+Our purpose is to enable users to make the most informed decision possible when it comes to management of our Florida beaches and coastlines. Data that is both current and easily accessible are the key ingredients that facilitate the management process. Two basic types of data will be used in this effort. Spatial data will be used because the environment is geographic in nature. Tabular data will be used to store information about events which take place at locations stored as spatial data and referred to as spatial features.
+
+The database stores information about sand samples. Information associated with sand samples includes, but is not limited to, granulometric data, bathymetry, seismic and sidescan sonar images, core photos, core logs, core descriptions, Munsell Color, metadata (information about the original data), and associated project information.
+
+ 
+
+#### The data used for C-GRASP from the [ROSSI spatial query portal](http://rossi.urs-tally.com/Map). Used from this source data are location & date data, sampling coordinates, seive measurements in units phi, and sample statistics in Phi units (Mean, Skewness, Median, Kurtosis).  Samples were collected on projects from dates ranging from 1955-2014. Details/Alterations:
+ * Cumulative distribution values were calculated via the methods in the Interpolation Notebook. Measurements were converted to mm units.
+ *  Source data coordinates provided are in the EPSG 4326 datum.
+ *  Date comes from the source data "SAMPLE_DATE" field standardized from m/d/y to yyyy-mm-dd
+ *  The "Notes" field is composed of the source files' various shape, lithology, wentworth weight %, and lab comments a fields (among other relevant fields identified in the sample notes such as OilPresent).
+ * The "Sample_ID" column comes from the source data "SampleID" and "GrabID" fields, merged.
+ *  The "Sample_Type" field comes from the source data "COLLECTION_METHOD" field
+ *  Location_Type comes from the source data 'BEACH_DATA" field
+
+
+
+### Dataset: usSEABED ("dataset"== "ussb")(https://www.usgs.gov/programs/cmhrp/science/usseabed)
+
+ From Website: "Information about seafloor characteristics from the beach to the deep sea improves the understanding of interactions between land and sea, effects of river discharge and sea level changes, distributions of benthic flora and fauna, location and type of resources, potential consequences of human activities on the oceans, and other critical issues. Large- and small-scale maps of the seabed, as well as reliable data over broad geographical areas, allow for integrated insights into these issues and more.
+
+ To assist in addressing these issues, the USGS and the University of Colorado have created usSEABED.  The usSEABED datasets currently hold georeferenced point data for more than 300,000 data sites in U.S. waters from the beach to the deep sea, rivers, lakes, and estuaries. In usSEABED, existing data from the USGS and other research groups are processed and extended to maximize their density and usability creating unified, comprehensive, relationally linked datasets for mapping and analysis.  Source data include surficial and subbottom data from physical sampling equipment (grabs and cores) and virtual sampling such as descriptions from seafloor photographs and videos.
+
+ In addition to quantified lab-derived data, the datasets of usSEABED also include estimated numeric values for those typical seabed characteristics—noted above—based on the extensive accumulation of word-based data in U.S. waters. These data are rich in information, but were previously difficult to quantify, map, plot, or use in comparative analyses or models.
+
+ These descriptive data—from short sentences, small essays, or single phrases—are treated as a mathematical equation that is considered as a whole. Filters based on fuzzy set theory assign relative weight to each word in the description, and estimate the values of textural and other parameters. In addition, the textural implications of non-textural terms—such as 'broken shells' or Halimeda—are included in the calculation of grain-size parameters.
+
+ The resulting numeric data, now useable in a GIS or model, should be considered "fuzzy"; that is, they give an approximation—not a rigorous measurement—of the assessed values."
+
+
+#### The data used for C-GRASP  is merged from the MMIS portal from 7 spatial queries in order to aquire the entire sediment dataset and avoid the download cap. Used from this source data are location & date data, sampling coordinates, and sample statistics in Phi units (Mean, Skewness, Median, Kurtosis). Samples were collected on projects from dates ranging from 1856-2007. Details/Alterations:
+ * Measurements were converted to mm units. Coordinates provided are in the EPSG 4326 datum. 
+ * The "Notes" field is composed of the source files' Analysis date, lithology, sediment description, sediment color,equipment, sample_type, geoloc, depth, depth and comments fields (among other relevant fields identified in the sample notes such as OilPresent).  
+ * The "Sample_ID" column comes from the source data "SampleID" and "GrabID" fields, merged.
+ * The "Sample_Type" field comes from the source data "Sampler" field
+
+
+
+
+## Primary Sources:
+
+===
+
+These data were collected from projects and publications that include grainsize measurements. Some of these projects include use of sample data from other publications or projects, the name of which can be found in the "Project" field for each sample. 
+
+### Dataset:Clark
+
+This data was collected and provided by Dr. Clark Alexander, UGA Skidaway Institute of Oceanography using "Combined sieve (<4 phi) and Sedigraph (>4 phi) analysis technique" from onshore, beach samples from sampling campaigns on Jekyll Island, Sea Island, and St.Simons Island, GA in August, 2016.
+
+##### The data used for C-GRASP provided in the source data are location & date data, sampling coordinates, and sample statistics in Phi (Mean, Sorting, Skewness, Kurtosis). Details/Analysis:
+ * These measurements were converted to mm units and date was standardized from dd-MM-YY to yyyy-mm-dd.
+ *  The Sample_ID type comes from column comes from the dataset's "Station" field.
+ *   Sample_Type_Code for all files is assigned to 1
+
+
+### Dataset: Massachusetts Beach Grain Size and Slope Data (dataset=='UMass') https://scholarworks.umass.edu/data/115/:
+
+From Website: This data repository contains grain size and beach face slope data from approximately 100 paired summer and winter transects collected along 18 separate beaches in southern New England. The study is focused to beaches of Massachusetts, which represents a particularly unique section of the Northeastern US coast in that it: 1) lies at the interface between New England’s paraglacial lowlands and Mid-Atlantic Coastal Plain, 2) spans both micro- and meso- tidal regimes, 3) encompasses a wide range of seasonally varying wave conditions, and 4) contains a diverse array of geomorphic and grain size characteristics. Between 2 and 10 intertidal transects were conducted for each of the sites depending on the length of the beach and accessibility. Transect positions were chosen at representative locations along the beach and equally spaced when possible. At each transect at least three separate samples were collected at near 1) high-tide, 2) mid-tide and 3) low-tide. When possible, additional samples were collected along berm crest, storm berms and dune. To assess seasonal variations in grain size distribution and slope, all transects along beaches were sampled and surveyed twice, once at the end of the summer and then revisited again at the end of the winter season. Surface sediments from the top 15-30 cm were collected from sites primarily composed of sand and pebbles (i.e. < 64 mm), and brought back to the University of Massachusetts in Amherst, MA for analysis. Exclusively sand samples were collected in 1-liter (1-quart) bags, predominantly sand samples were collected in 4-liter (1-gallon) bags and mixed sand and pebble samples in 19 -liter (5 gallon) buckets. Areas comprised primarily of cobbles and boulder (> 64 mm) were measured in the field using a gravelometer and standard pebble count technique. Sediment samples were washed and dried thoroughly to remove salt and debris (sticks, seaweed, etc.). Each sample was weighed and sub-divided into fractions greater and less than 4 mm. Distributions for grains greater than 4 mm were obtained via standard sieving techniques. Grain size distributions for sample fractions < 4 mm were measured on a CAMSIZER digital particle size analyzer capable of measuring particles between 30 μm and 4 mm. The elevation of each sampling location as well as inter-tidal beach slope for each transect was obtained using a using a Real Time Kinematic (RTK) GPS survey system or a total station survey system tied to local benchmarks.
+
+
+Woodruff, J.D., Venti, N., Mabee, S., DiTroia, A., Beach, D., Massachusetts Beach Grain Size and Slope Data (2020)
+
+##### The data used for C-GRASP provided in the source data are location & date data, sampling coordinates, and seive measurements in mm. Details/Analysis:
+ * Latitude and Longitude values are from the source data coordinates, epsg:4326
+ * Cumulative distribution percentile values are calculated from the seive measurements using methods from the Interpolation notebook.
+ * Mean, standard deviation, skewness, kurtosis, and sorting were calculated using graphical moments (see above)
+  * Sample_Type_Code for all files is assigned to 1
+ * The "Location" field is from the source data's 'Beach' and field.
+ * Date is stardardized from m/d/y to yyyy-mm-dd from the source data "CreationDate"
+ * The "Notes" field comes from the source data "season", "beach face", and "transect" fields
+
+
+### Dataset:McFall (dataset=='mcfall_via_weigl'
+
+This data was collected and provided by Dr. Brian C McFall, US Army Corps of Engineers, Coastal & Hydraulics Laboratory, and is composed of sediment sample measurements that he compiled from publications for his 2019 publication relating grainsize and slope measurements (see reference below).
+
+##### The data used for C-GRASP provided in the source data are location & date data, sampling coordinates, and sample statistics in mm (Mean). Details/Analysis:
+ * Sample_Type_Code is set to 1 for all data
+ * The Sample_ID type comes from column comes from the dataset's "Label" field.
+
+McFall, B. C. (2019). The relationship between beach grain size and intertidal beach face slope. Journal of Coastal Research, 35(5), 1080-1086.
+
+### Dataset: SandSnap  https://navigation.usace.army.mil/SEM/SandSnapViewer':
+
+From Website: SandSnap is a collaborative project to engage citizen scientists, build a database of beach sand grain size, and educate the next generation about coastal processes. To understand how and why coastlines change, we must know the grain size of the sand on the beach. This information helps us model sand movement caused by the tides and waves, and allows us to predict how the coast will change.
+
+Researchers and resource managers collect and analyze data to help understand how our coastlines have evolved and how they are likely to change in the future. Data on waves, topography, tides, and sand size are all needed to understand these complex systems.
+
+Grain size is particularly difficult to collect because a scientist must visit each location to collect a sample. After the sample is collected, it must be physically processed in the lab to determine the sediment characteristics. This work is time consuming. Additionally, this process needs to be repeated because the sediment on the beach is constantly changing.
+
+SandSnap allows anyone with a cell phone to take an image of the sand with a US coin and measure the sand’s grain size using a deep learning neural network (Buscombe 2020; McFall et al. 2020). The image and grain size information is readily available to the user and public in the Data Viewer. 
+
+##### The data used for C-GRASP provided in the source data are location & date data, and cumulative distribution percentile values (d[10,16,25,50,65,75,84,90]) in mm. Samples were collected from images taken from 2018-2022 Details/Analysis:
+
+ * Latitude and Longitude values were extracted from the source json file using geopandas, crs was set to epsg:4326
+ * Other distributions (d[5,30,75]) are calculated from the source distributions provided using methods in the Interpolation notebook
+ * Mean, standard deviation, skewness, kurtosis, and sorting were calculated using graphical moments (see above)
+ * The Sample_ID type comes from column comes from the dataset's "user_sample_id" field.
+ * Sample_Type_Code for all files is assigned to 1
+ * The "Location" field is from the source data's 'location_town' and 'location_state' fields, merged
+ * Date is stardardized from ms to yyyy-mm-dd from the source data "CreationDate"
+ * The "Notes" field comes from the source data "notes" and "coin" fields
+
+
+
+
+### Dataset: Susan Bell (dataset=='SusanBell_UniversitySouthernFlorida')  https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:0083190:
+
+From Website: Sampling for macroinfauna from swash zones of beaches along the SE Gulf of Mexico and SE coast of Florida was conducted from May 2010- July 2011. At each site, sampling was conducted using sediment cores (10cm diameter, 20cm deep) and all sampling was conducted within 2 hrs of low tide. Cores were collected within an approximately 100m linear distance parallel to the shoreline at each site. Some sites were intensively sampled across 3 subareas of the swash zone: high (near maximum wave run-up), mid, and low (near maximum wave back-wash) swash. Core contents were washed through a 1mm mesh and contents retained on the sieve were returned to the laboratory and frozen at 4°C. In the laboratory, samples were sorted and all macroinfauna removed. The dominant macroinfauna Donax variabilis (coquina) and Emerita talpoida (mole crab), making up over 99% of all organisms, were enumerated. Mean number (SD) per core and subarea within the swash zone are reported.
+
+Additionally, three 60 ml cores were collected for sediment analyses from within the swash zones of all beaches, on or near each sampling date. Sediment samples were returned to the laboratory, dried for 24 h at 60°C, and median grain size determined. 
+
+ 	
+Bell, Susan S.; University of South Florida - St. Petersburg (USF) (2012). Macroinfauna and sediment data from swash zones of sandy beaches along the SE Gulf of Mexico and SE Florida coast, 2010-2011, in response to the Deepwater Horizon Oil Spill (NCEI Accession 0083190). [indicate subset used]. NOAA National Centers for Environmental Information. Dataset. https://www.ncei.noaa.gov/archive/accession/0083190. 
+
+##### The data used for C-GRASP provided in the source data are location & date data, sampling coordinates, and sample statistics in mm (Mean, Median, Skewness, Kurtosis). Details/Analysis:
+ * Latitude and Longitude values were split from a combined Lat,Lon column in the source data
+ * The Sample_ID type comes from column comes from the dataset's "Site/date ID" field.
+ * Sample_Type_Code for all files is assigned to 1
+ * The "Notes" field for this data come from the source data "Taxa" field and project metadata
+
+
+
+
+
