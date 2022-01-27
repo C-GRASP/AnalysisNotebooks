@@ -157,7 +157,6 @@ Listed below are the sources that we compiled for the overall dataset with notes
 
 ## Databases/Secondary Sources:
 
-===
 
 These data were collected from databases composed of samples from compiled, relevant projects. These projects, when extractable, are specified listed under the "Project" field for each sample. 
 
@@ -268,8 +267,6 @@ The database stores information about sand samples. Information associated with 
 
 
 ## Primary Sources:
-
-===
 
 These data were collected from projects and publications that include grainsize measurements. Some of these projects include use of sample data from other publications or projects, the name of which can be found in the "Project" field for each sample. 
 
