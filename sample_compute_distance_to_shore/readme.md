@@ -1,5 +1,4 @@
-        <strong>> Compute Sample Distance from Shore </strong><br/>
-    </p>                       
+## Sample_Compute_Distance_to_Shore
         
 <p style="border: 1px solid #ff5733; border-left: 15px solid #ff5733; padding: 10px; text-align:justify;">
     <strong style="color: #ff5733">The purpose of this notebook</strong>  
