@@ -3,23 +3,20 @@ channels:
   - conda-forge
   - defaults
 dependencies:
- - python
- - pip
- - jupyter
  - pandas
- - geopandas
- - scipy
- - numpy
  - geocoder
  - requests
- - bs4
- - netCDF4
- - cartopy
- - ipyleaflet
  - ipywidgets
- - ogr
+ - scipy
+ - numpy
+ - matplotlib
+ - geopandas
+ - pyshp
+ - geojson
+ - cartopy
+ - beautifulsoup4
+ - netCDF4
+ - ipyleaflet
  - os
  - shapely
  - pyproj
- - osmnx
- - cartopy
