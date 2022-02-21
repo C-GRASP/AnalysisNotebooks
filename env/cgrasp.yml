@@ -5,18 +5,20 @@ channels:
 dependencies:
  - pandas
  - geocoder
- - requests
- - ipywidgets
- - scipy
- - numpy
- - matplotlib
  - geopandas
  - pyshp
- - geojson
+ - ipywidgets
  - cartopy
+ - numpy
+ - scipy
+ - requests
+ - matplotlib
+ - ipyleaflet
+ - pyproj
+ - glob
+ - os
  - beautifulsoup4
  - netCDF4
- - ipyleaflet
- - os
- - shapely
- - pyproj
+ - tqdm
+
+
