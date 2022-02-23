@@ -21,5 +21,6 @@ dependencies:
  - netCDF4
  - tqdm
  - glob2
+ - wget
 
 
