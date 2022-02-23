@@ -15,8 +15,6 @@ dependencies:
  - matplotlib
  - ipyleaflet
  - pyproj
- - glob
- - os
  - beautifulsoup4
  - netCDF4
  - tqdm
